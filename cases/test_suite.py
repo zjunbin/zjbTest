@@ -11,3 +11,4 @@ loader = unittest.TestLoader()
 suite.addTest(loader.loadTestsFromTestCase(TestLogin))
 suite.addTest(loader.loadTestsFromTestCase(TestRegister))
 suite.addTest(loader.loadTestsFromTestCase(TestRecharge))
+# 测试数据
