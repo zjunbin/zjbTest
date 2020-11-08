@@ -94,3 +94,51 @@
 2020-11-08 17:17:38,929 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第12个用例，测试参数: {'mobilephone': '13822221113', 'amount': '-10'},测试结果：{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}
 2020-11-08 17:17:39,743 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第13个用例，测试参数: {'mobilephone': '13822221113', 'amount': '500000.01'},测试结果：{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}
 2020-11-08 17:17:40,411 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第14个用例，测试参数: {'mobilephone': '13822221113', 'amount': 'abc'},测试结果：{"status":0,"code":"20118","data":null,"msg":"请输入数字"}
+2020-11-08 17:40:02,186 [DEBUG] myLog.py [line:41] Excel读写日志信息：====打开Excel====
+2020-11-08 17:40:02,187 [DEBUG] myLog.py [line:41] Excel读写日志信息：====打开Sheet====
+2020-11-08 17:40:02,283 [DEBUG] myLog.py [line:41] Excel读写日志信息：====打开Excel====
+2020-11-08 17:40:02,284 [DEBUG] myLog.py [line:41] Excel读写日志信息：====打开Sheet====
+2020-11-08 17:40:02,374 [DEBUG] myLog.py [line:41] Excel读写日志信息：====打开Excel====
+2020-11-08 17:40:02,375 [DEBUG] myLog.py [line:41] Excel读写日志信息：====打开Sheet====
+2020-11-08 17:40:02,860 [DEBUG] myLog.py [line:41] login模块测试日志信息：正在执行第1个用例，测试参数: {'mobilephone': '13822221112', 'pwd': '123456'},测试结果：{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2020-11-08 17:40:03,332 [DEBUG] myLog.py [line:41] login模块测试日志信息：正在执行第2个用例，测试参数: {'mobilephone': '', 'pwd': '123456'},测试结果：{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+2020-11-08 17:40:03,823 [DEBUG] myLog.py [line:41] login模块测试日志信息：正在执行第3个用例，测试参数: {'mobilephone': '18688773468', 'pwd': ''},测试结果：{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}
+2020-11-08 17:40:04,631 [DEBUG] myLog.py [line:41] login模块测试日志信息：正在执行第4个用例，测试参数: {'mobilephone': '19688773468', 'pwd': '123456'},测试结果：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2020-11-08 17:40:05,456 [DEBUG] myLog.py [line:41] login模块测试日志信息：正在执行第5个用例，测试参数: {'mobilephone': '18688773468', 'pwd': '@@###8888'},测试结果：{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
+2020-11-08 17:40:06,310 [ERROR] myLog.py [line:47] register模块日志信息：正在执行第1个用例，测试参数: {'mobilephone': '13241150955', 'pwd': '123456', 'regname': '小名'},断言结果：'{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}' != '{"status":1,"code":"10001","data":null,"msg":"注册成功"}'
+- {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         ^  --                     ------
++ {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^         ^^^                         ++
+
+2020-11-08 17:40:07,167 [ERROR] myLog.py [line:47] register模块日志信息：正在执行第2个用例，测试参数: {'mobilephone': '13241150955', 'pwd': '123456', 'regname': ''},断言结果：'{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}' != '{"status":1,"code":"10001","data":null,"msg":"注册成功"}'
+- {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
+?           ^         ^  --                     ------
++ {"status":1,"code":"10001","data":null,"msg":"注册成功"}
+?           ^         ^^^                         ++
+
+2020-11-08 17:40:07,651 [DEBUG] myLog.py [line:41] register模块日志信息：正在执行第3个用例，测试参数: {'mobilephone': '', 'pwd': '123456', 'regname': '小名'},测试结果：{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+2020-11-08 17:40:08,460 [DEBUG] myLog.py [line:41] register模块日志信息：正在执行第4个用例，测试参数: {'mobilephone': '18688773468', 'pwd': '123456', 'regname': '小名'},测试结果：{'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}
+2020-11-08 17:40:08,977 [DEBUG] myLog.py [line:41] register模块日志信息：正在执行第5个用例，测试参数: {'mobilephone': '1868877346', 'pwd': '123456', 'regname': '小名'},测试结果：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2020-11-08 17:40:09,473 [DEBUG] myLog.py [line:41] register模块日志信息：正在执行第6个用例，测试参数: {'mobilephone': '186887734681', 'pwd': '123456', 'regname': '小名'},测试结果：{'status': 0, 'code': '20109', 'data': None, 'msg': '手机号码格式不正确'}
+2020-11-08 17:40:09,954 [DEBUG] myLog.py [line:41] register模块日志信息：正在执行第7个用例，测试参数: {'mobilephone': '13241150955', 'pwd': '', 'regname': '小名'},测试结果：{'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}
+2020-11-08 17:40:10,482 [DEBUG] myLog.py [line:41] register模块日志信息：正在执行第8个用例，测试参数: {'mobilephone': '13241150955', 'pwd': '3456', 'regname': '小名'},测试结果：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2020-11-08 17:40:11,033 [DEBUG] myLog.py [line:41] register模块日志信息：正在执行第9个用例，测试参数: {'mobilephone': '13241150955', 'pwd': '123478956123456789123456', 'regname': '小名'},测试结果：{'status': 0, 'code': '20108', 'data': None, 'msg': '密码长度必须为6~18'}
+2020-11-08 17:40:11,817 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第1个用例，测试参数: {'mobilephone': '13822221113', 'pwd': '123456'},测试结果：{"status":1,"code":"10001","data":null,"msg":"登录成功"}
+2020-11-08 17:40:13,378 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第2个用例，测试参数: {'mobilephone': '13822221113', 'amount': '1'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"6000010.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
+2020-11-08 17:40:14,932 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第3个用例，测试参数: {'mobilephone': '13822221113', 'amount': '0.01'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"6000010.01","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
+2020-11-08 17:40:16,484 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第4个用例，测试参数: {'mobilephone': '13822221113', 'amount': '499999.99'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"6500010.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
+2020-11-08 17:40:18,056 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第5个用例，测试参数: {'mobilephone': '13822221113', 'amount': '500000'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"7000010.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
+2020-11-08 17:40:18,588 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第6个用例，测试参数: {'mobilephone': '', 'amount': '10'},测试结果：{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+2020-11-08 17:40:19,489 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第7个用例，测试参数: {'mobilephone': '15688773468', 'amount': '10'},测试结果：{"status":0,"code":"20104","data":null,"msg":"此手机号对应的会员不存在"}
+2020-11-08 17:40:20,050 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第8个用例，测试参数: {'mobilephone': '1868873468', 'amount': '10'},测试结果：{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+2020-11-08 17:40:20,571 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第9个用例，测试参数: {'mobilephone': '186887734682', 'amount': '1'},测试结果：{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}
+2020-11-08 17:40:21,146 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第10个用例，测试参数: {'mobilephone': '13822221113', 'amount': ''},测试结果：{"status":0,"code":"20115","data":null,"msg":"请输入金额"}
+2020-11-08 17:40:21,705 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第11个用例，测试参数: {'mobilephone': '13822221113', 'amount': '0.001'},测试结果：{"status":0,"code":"20116","data":null,"msg":"输入金额的金额小数不能超过两位"}
+2020-11-08 17:40:22,293 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第12个用例，测试参数: {'mobilephone': '13822221113', 'amount': '-10'},测试结果：{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}
+2020-11-08 17:40:22,826 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第13个用例，测试参数: {'mobilephone': '13822221113', 'amount': '500000.01'},测试结果：{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}
+2020-11-08 17:40:23,340 [DEBUG] myLog.py [line:41] recharge模块日志信息：正在执行第14个用例，测试参数: {'mobilephone': '13822221113', 'amount': 'abc'},测试结果：{"status":0,"code":"20118","data":null,"msg":"请输入数字"}

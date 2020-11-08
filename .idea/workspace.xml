@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6c0d37e-511c-485c-9da4-f49cf85eb3c9" name="Default" comment="修改">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/zjbTest.iml" />
+    <list default="true" id="f6c0d37e-511c-485c-9da4-f49cf85eb3c9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/test.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/testcase.xlsx" afterPath="$PROJECT_DIR$/datas/testcase.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2020-11-08.log" afterPath="$PROJECT_DIR$/logs/2020-11-08.log" />
@@ -23,7 +20,7 @@
       <file leaf-file-name="test_login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cases/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="0">
               <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="e#67#88#0" expanded="true" />
@@ -114,6 +111,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test_suite.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cases/test_suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -125,6 +132,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,13 +155,14 @@
         <option value="D:/api_testing/cases/test_recharge.py" />
         <option value="$PROJECT_DIR$/cases/test_recharge.py" />
         <option value="$PROJECT_DIR$/common/test.py" />
-        <option value="$PROJECT_DIR$/cases/test_suite.py" />
         <option value="$PROJECT_DIR$/logs/2020-11-07.log" />
         <option value="$PROJECT_DIR$/cases/test_login2.py" />
         <option value="$PROJECT_DIR$/common/read_all_case.py" />
         <option value="$PROJECT_DIR$/common/mySql.py" />
         <option value="$PROJECT_DIR$/common/doregex.py" />
         <option value="$PROJECT_DIR$/cases/test_runner.py" />
+        <option value="$PROJECT_DIR$/cases/test_suite.py" />
+        <option value="$PROJECT_DIR$/logs/test.txt" />
       </list>
     </option>
   </component>
@@ -187,7 +198,22 @@
             <path>
               <item name="zjbTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="zjbTest" type="462c0819:PsiDirectoryNode" />
-              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zjbTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zjbTest" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zjbTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zjbTest" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zjbTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zjbTest" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +224,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.CVS" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -349,7 +375,42 @@
       <option name="project" value="LOCAL" />
       <updated>1604823264020</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改">
+      <created>1604827094433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604827094433</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改testsuite">
+      <created>1604827561138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604827561138</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加文件">
+      <created>1604828036974</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604828036974</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加文件">
+      <created>1604828095171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604828095171</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加文件">
+      <created>1604828118531</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604828118531</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -443,7 +504,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加sys.path.append('./')" />
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="修改testsuite" />
+    <MESSAGE value="添加文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -452,13 +515,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/request.py" />
     <entry file="file://$PROJECT_DIR$/configtesting2020-11-06.log" />
     <entry file="file://$PROJECT_DIR$/../../api_testing/common/readconfig.py">
@@ -666,16 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cases/test_suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#65#80#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/constans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -718,7 +764,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cases/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="0">
           <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="e#67#88#0" expanded="true" />
@@ -785,6 +831,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases/test_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -116,8 +116,8 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">前程贷</h1>
 <p class='attribute'><strong>测试人员 : </strong> lisa</p>
-<p class='attribute'><strong>开始时间 : </strong> 2020-11-08 17:17:18</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:22.581732</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-11-08 17:40:02</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:21.349324</p>
 <p class='attribute'><strong>测试结果 : </strong> 共 28，通过 22，失败 6，通过率= 78.57%</p>
 
 <p class='description'>接口测试</p>
@@ -202,7 +202,7 @@ function html_escape(s) {
     <div id='div_ft2_1' class="collapse in" align="left">
     <pre>
     
-ft2_1: 2020-11-08 17:17:22,597 [ERROR] myLog.py [line:47] register模块日志信息：正在执行第1个用例，测试参数: {'mobilephone': '13241150955', 'pwd': '123456', 'regname': '小名'},断言结果：'{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}' != '{"status":1,"code":"10001","data":null,"msg":"注册成功"}'
+ft2_1: 2020-11-08 17:40:06,310 [ERROR] myLog.py [line:47] register模块日志信息：正在执行第1个用例，测试参数: {'mobilephone': '13241150955', 'pwd': '123456', 'regname': '小名'},断言结果：'{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}' != '{"status":1,"code":"10001","data":null,"msg":"注册成功"}'
 - {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
 ?           ^         ^  --                     ------
 + {"status":1,"code":"10001","data":null,"msg":"注册成功"}
@@ -239,7 +239,7 @@ AssertionError: '{"status":0,"code":"20110","data":null,"msg":"手机号码已�
     <div id='div_ft2_2' class="collapse in" align="left">
     <pre>
     
-ft2_2: 2020-11-08 17:17:23,649 [ERROR] myLog.py [line:47] register模块日志信息：正在执行第2个用例，测试参数: {'mobilephone': '13241150955', 'pwd': '123456', 'regname': ''},断言结果：'{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}' != '{"status":1,"code":"10001","data":null,"msg":"注册成功"}'
+ft2_2: 2020-11-08 17:40:07,167 [ERROR] myLog.py [line:47] register模块日志信息：正在执行第2个用例，测试参数: {'mobilephone': '13241150955', 'pwd': '123456', 'regname': ''},断言结果：'{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}' != '{"status":1,"code":"10001","data":null,"msg":"注册成功"}'
 - {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}
 ?           ^         ^  --                     ------
 + {"status":1,"code":"10001","data":null,"msg":"注册成功"}
@@ -339,9 +339,9 @@ pt3_1: COOKIES: None
     <div id='div_ft3_2' class="collapse in" align="left">
     <pre>
     
-ft3_2: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
-2020-11-08 17:17:30,220 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第2个用例，测试参数: {'mobilephone': '13822221113', 'amount': '1'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
-+ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"4000008.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
+ft3_2: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
+2020-11-08 17:40:13,378 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第2个用例，测试参数: {'mobilephone': '13822221113', 'amount': '1'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"6000010.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
 Traceback (most recent call last):
   File "D:\Python37\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
@@ -350,7 +350,7 @@ Traceback (most recent call last):
   File "D:\Python14\前程贷项目\zjbTest\cases\test_recharge.py", line 38, in test_recharge
     self.assertEqual(actual, item['excepted'])
 AssertionError: '{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
-+ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"4000008.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"6000010.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
 
 
     </pre>
@@ -369,9 +369,9 @@ AssertionError: '{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨
     <div id='div_ft3_3' class="collapse in" align="left">
     <pre>
     
-ft3_3: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
-2020-11-08 17:17:31,717 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第3个用例，测试参数: {'mobilephone': '13822221113', 'amount': '0.01'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
-+ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"4000008.01","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
+ft3_3: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
+2020-11-08 17:40:14,932 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第3个用例，测试参数: {'mobilephone': '13822221113', 'amount': '0.01'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"6000010.01","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
 Traceback (most recent call last):
   File "D:\Python37\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
@@ -380,7 +380,7 @@ Traceback (most recent call last):
   File "D:\Python14\前程贷项目\zjbTest\cases\test_recharge.py", line 38, in test_recharge
     self.assertEqual(actual, item['excepted'])
 AssertionError: '{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
-+ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"4000008.01","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"6000010.01","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
 
 
     </pre>
@@ -399,9 +399,9 @@ AssertionError: '{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨
     <div id='div_ft3_4' class="collapse in" align="left">
     <pre>
     
-ft3_4: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
-2020-11-08 17:17:33,359 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第4个用例，测试参数: {'mobilephone': '13822221113', 'amount': '499999.99'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
-+ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"4500008.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
+ft3_4: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
+2020-11-08 17:40:16,484 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第4个用例，测试参数: {'mobilephone': '13822221113', 'amount': '499999.99'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"6500010.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
 Traceback (most recent call last):
   File "D:\Python37\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
@@ -410,7 +410,7 @@ Traceback (most recent call last):
   File "D:\Python14\前程贷项目\zjbTest\cases\test_recharge.py", line 38, in test_recharge
     self.assertEqual(actual, item['excepted'])
 AssertionError: '{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
-+ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"4500008.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"6500010.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
 
 
     </pre>
@@ -429,9 +429,9 @@ AssertionError: '{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨
     <div id='div_ft3_5' class="collapse in" align="left">
     <pre>
     
-ft3_5: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
-2020-11-08 17:17:34,970 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第5个用例，测试参数: {'mobilephone': '13822221113', 'amount': '500000'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
-+ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"5000008.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
+ft3_5: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
+2020-11-08 17:40:18,056 [ERROR] myLog.py [line:47] recharge模块日志信息：正在执行第5个用例，测试参数: {'mobilephone': '13822221113', 'amount': '500000'},断言结果：'{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"7000010.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
 Traceback (most recent call last):
   File "D:\Python37\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
@@ -440,7 +440,7 @@ Traceback (most recent call last):
   File "D:\Python14\前程贷项目\zjbTest\cases\test_recharge.py", line 38, in test_recharge
     self.assertEqual(actual, item['excepted'])
 AssertionError: '{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨è\[160 chars]成功"}' != '{"st[19 chars]01","msg":"充值成功"}'
-+ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"5000008.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
++ {"status":1,"code":"10001","msg":"充值成功"}- {"status":1,"code":"10001","data":{"id":418438,"regname":"ä½¿ç¨è- ","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13822221113","leaveamount":"7000010.00","type":"1","regtime":"2020-11-07 14:09:32.0"},"msg":"充值成功"}
 
 
     </pre>
@@ -459,7 +459,7 @@ AssertionError: '{"st[19 chars]01","data":{"id":418438,"regname":"ä½¿ç\x94¨
     <div id='div_pt3_6' class="collapse in" align="left">
     <pre>
     
-pt3_6: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
+pt3_6: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
 
 
     </pre>
@@ -478,7 +478,7 @@ pt3_6: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090
     <div id='div_pt3_7' class="collapse in" align="left">
     <pre>
     
-pt3_7: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
+pt3_7: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
 
 
     </pre>
@@ -497,7 +497,7 @@ pt3_7: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090
     <div id='div_pt3_8' class="collapse in" align="left">
     <pre>
     
-pt3_8: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
+pt3_8: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
 
 
     </pre>
@@ -516,7 +516,7 @@ pt3_8: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090
     <div id='div_pt3_9' class="collapse in" align="left">
     <pre>
     
-pt3_9: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
+pt3_9: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
 
 
     </pre>
@@ -535,7 +535,7 @@ pt3_9: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090
     <div id='div_pt3_10' class="collapse in" align="left">
     <pre>
     
-pt3_10: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
+pt3_10: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
 
 
     </pre>
@@ -554,7 +554,7 @@ pt3_10: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A4129009
     <div id='div_pt3_11' class="collapse in" align="left">
     <pre>
     
-pt3_11: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
+pt3_11: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
 
 
     </pre>
@@ -573,7 +573,7 @@ pt3_11: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A4129009
     <div id='div_pt3_12' class="collapse in" align="left">
     <pre>
     
-pt3_12: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
+pt3_12: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
 
 
     </pre>
@@ -592,7 +592,7 @@ pt3_12: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A4129009
     <div id='div_pt3_13' class="collapse in" align="left">
     <pre>
     
-pt3_13: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
+pt3_13: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
 
 
     </pre>
@@ -611,7 +611,7 @@ pt3_13: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A4129009
     <div id='div_pt3_14' class="collapse in" align="left">
     <pre>
     
-pt3_14: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=4A8BD4FE8B6A41290090FF887477CF50 for test.lemonban.com/futureloan&gt;]&gt;
+pt3_14: COOKIES: &lt;RequestsCookieJar[&lt;Cookie JSESSIONID=EE9E1D18F0FC292B6D1621DEC21E136B for test.lemonban.com/futureloan&gt;]&gt;
 
 
     </pre>
