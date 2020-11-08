@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6c0d37e-511c-485c-9da4-f49cf85eb3c9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/test.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datas/testcase.xlsx" afterPath="$PROJECT_DIR$/datas/testcase.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2020-11-08.log" afterPath="$PROJECT_DIR$/logs/2020-11-08.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/result/2020-11-08-result.html" afterPath="$PROJECT_DIR$/result/2020-11-08-result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_runner.py" afterPath="$PROJECT_DIR$/test_runner.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,8 +99,8 @@
       <file leaf-file-name="test_runner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="231">
+              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding>
                 <element signature="e#65#80#0" expanded="true" />
               </folding>
@@ -163,6 +160,7 @@
         <option value="$PROJECT_DIR$/cases/test_runner.py" />
         <option value="$PROJECT_DIR$/cases/test_suite.py" />
         <option value="$PROJECT_DIR$/logs/test.txt" />
+        <option value="$PROJECT_DIR$/test_runner.py" />
       </list>
     </option>
   </component>
@@ -410,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604828118531</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="第2次运行">
+      <created>1604828457051</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604828457051</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -506,7 +511,8 @@
     <MESSAGE value="修改" />
     <MESSAGE value="修改testsuite" />
     <MESSAGE value="添加文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加文件" />
+    <MESSAGE value="第2次运行" />
+    <option name="LAST_COMMIT_MESSAGE" value="第2次运行" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -852,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="231">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding>
             <element signature="e#65#80#0" expanded="true" />
           </folding>

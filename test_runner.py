@@ -11,3 +11,4 @@ result_path = constans.result_path
 with open(file=result_path, mode='wb+') as file:
     runner = HTMLTestRunner(file, 2, title='前程贷', description='接口测试', tester='lisa')
     runner.run(suite)
+#测试
