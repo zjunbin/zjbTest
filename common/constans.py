@@ -17,7 +17,7 @@ log_path = os.path.join(path, 'logs/')
 # 测试用例存放路径和名称
 data_case = os.path.join(path, 'datas', 'testcase.xlsx')
 # 测试报告存放
-result_path = os.path.join(path, 'result' + '/' + day + '-result.html')
+result_path = os.path.join(path, 'result' + '/' +'report.html')
 #测试数据
 rr = os.getcwd()
 
